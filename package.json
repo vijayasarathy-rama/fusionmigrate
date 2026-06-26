@@ -1,0 +1,18 @@
+{
+  "name": "fusionmigrate-server",
+  "version": "1.0.0",
+  "description": "FusionMigrate Wave 1 — Backend proxy server",
+  "main": "server/server.js",
+  "scripts": {
+    "start":   "node server/server.js",
+    "dev":     "node --watch server/server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "keywords": ["oracle", "fusion", "fbdi", "migration"],
+  "license": "UNLICENSED"
+}
